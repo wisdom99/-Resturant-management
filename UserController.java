@@ -12,6 +12,7 @@ import com.wisdom.Resturantmanagement.service.UserService;
 import com.wisdom.Resturantmanagement.validator.UserValidator;
 
 @Controller
+//@RestController
 public class UserController {
     @Autowired
     private UserService userService;
